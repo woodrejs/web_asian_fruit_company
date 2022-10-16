@@ -56,7 +56,7 @@ a {
 .mysection.herosection {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url('../images/hero_bck.jpg');
+  background-image: url("../images/hero_bck.jpg");
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -236,7 +236,7 @@ a {
 
 .hero_img {
   padding: 250px 200px;
-  background-image: url('../images/thailand_map_img.svg');
+  background-image: url("../images/thailand_map_img.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -256,30 +256,30 @@ a {
 .certificate_logo {
   padding-top: 82px;
   padding-bottom: 40px;
-  background-image: url('../images/certificate_logo_1.svg');
+  background-image: url("../images/certificate_logo_1.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .certificate_logo.certificate_logo--2 {
-  background-image: url('../images/certificate_logo_3.svg');
+  background-image: url("../images/certificate_logo_3.svg");
 }
 
 .certificate_logo.certificate_logo--3 {
-  background-image: url('../images/GLOBALGAP.svg');
+  background-image: url("../images/GLOBALGAP.svg");
 }
 
 .certificate_logo.certificate_logo--4 {
-  background-image: url('../images/GFS.svg');
+  background-image: url("../images/GFS.svg");
 }
 
 .certificate_logo.certificate_logo--5 {
-  background-image: url('../images/SEDEX.svg');
+  background-image: url("../images/SEDEX.svg");
 }
 
 .certificate_logo.certificate_logo--6 {
-  background-image: url('../images/BRC.svg');
+  background-image: url("../images/BRC.svg");
 }
 
 .certificate_title {
@@ -310,7 +310,7 @@ a {
 
 .transport_img {
   position: static;
-  background-image: url('../images/euro-asia_map.svg');
+  background-image: url("../images/euro-asia_map.svg");
   background-position: 75% 50%;
   background-size: 74%;
   background-repeat: no-repeat;
@@ -374,8 +374,6 @@ a {
   max-width: 1100px;
   margin-bottom: 100px;
   text-align: center;
-  -webkit-column-count: 2;
-  column-count: 2;
   -webkit-column-gap: 75px;
   column-gap: 75px;
 }
@@ -446,7 +444,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/LOGO.svg');
+  background-image: url("../images/LOGO.svg");
   background-position: 0% 50%;
   background-size: 55px;
   background-repeat: no-repeat;
@@ -526,6 +524,7 @@ a {
   font-family: Roboto, sans-serif;
   font-size: 12px;
   text-align: center;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 991px) {
@@ -616,15 +615,15 @@ a {
   }
 
   .certificate_logo.certificate_logo--4 {
-    background-image: url('../images/BRC.svg');
+    background-image: url("../images/BRC.svg");
   }
 
   .certificate_logo.certificate_logo--5 {
-    background-image: url('../images/SEDEX.svg');
+    background-image: url("../images/SEDEX.svg");
   }
 
   .certificate_logo.certificate_logo--6 {
-    background-image: url('../images/GFS.svg');
+    background-image: url("../images/GFS.svg");
   }
 
   .certificate_text {
@@ -1059,7 +1058,7 @@ a {
   }
 
   .brand {
-    background-image: url('../images/LOGO.svg');
+    background-image: url("../images/LOGO.svg");
     background-position: 0% 50%;
     background-size: 55px;
   }
@@ -1494,4 +1493,6 @@ a {
     grid-row-start: 3;
   }
 }
-
+.titlePaddingBottom {
+  padding-bottom: 20px;
+}
